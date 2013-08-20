@@ -1,0 +1,15 @@
+/* =Links
+-------------------------------------------------------------- */
+
+a {
+	@include force-wrap; // Force text links to wrap
+	color: $blue;
+	font-weight: bold;
+	text-decoration: none;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $blueDark;
+	}
+}

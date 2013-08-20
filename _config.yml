@@ -1,0 +1,4 @@
+name: byBrick Labs
+pygments: true
+exclude: [app, sass, config.rb, codekit-config.json]
+paginate: 5

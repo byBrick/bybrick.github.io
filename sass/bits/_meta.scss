@@ -1,0 +1,8 @@
+/* =Meta
+-------------------------------------------------------------- */
+
+.meta {
+	@include adjust-font-size-to($smaller-font-size);
+	@include trailer(2);
+	color: $grayLighter;
+}

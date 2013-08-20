@@ -1,0 +1,44 @@
+{% include header.html %}
+
+	<section class="page post">
+		<nav class="post-nav">
+			<a href="#" rel="prev" class="prev">Previous post</a>
+			<a href="#" rel="next" class="next">Next post</a>
+		</nav><!-- .post-nav -->
+
+		<header class="banner" role="banner">
+			<h1 class="post-title">{{ page.title }}</h1>
+			{% if page.subtitle %}
+				<h2 class="post-description">{{ page.subtitle }}</h2>
+			{% endif %}
+			<p class="meta">Written {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }}{% endif %}</p>
+		</header><!-- .banner -->
+
+		<article class="main" role="main">
+			{% if page.tldr %}
+				<aside class="summary">
+					<h3>TL;DR</h3>
+					<p>{{ page.tldr }}</p>
+				</aside><!-- .summary -->
+			{% endif %}
+			<div class="content">
+				{{ content }}
+			</div><!-- .content -->
+		</article><!-- .main -->
+
+		<div class="comments">
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+				var disqus_shortname = 'bybricklabs';
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		</div><!-- .comments -->
+	</section><!-- .page -->
+
+{% include footer.html %}

@@ -1,0 +1,31 @@
+%box {
+	@include box-shadow($black 3px 3px 0);
+	@include clearfix();
+	@include trailer();
+	background-color: lighten($black,10%);
+	border-left: 5px solid $orange;
+	padding: rhythm(1, 14px) 2em 0 2em;
+}
+
+/* =General
+-------------------------------------------------------------- */
+
+body {
+	background-color: $black;
+	color: $white;
+	font-family: $body-font;
+}
+
+.page {
+	@include padding-trailer();
+	@include padding-trailer(2);
+	background-color: lighten($black,5%);
+
+	&.post {
+		padding-top: 0;
+	}
+}
+
+img {
+	display: block;
+}

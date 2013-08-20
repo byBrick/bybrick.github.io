@@ -1,0 +1,21 @@
+/* =Navigation Top Bar
+-------------------------------------------------------------- */
+
+.page-nav-wrapper {
+	@include trailer(2);
+	background-color: $black;
+	height: 48px;
+	line-height: 48px;
+
+	.page-nav {
+		@include container($total-columns, $break);
+	
+		a {
+			color: $white;
+		}
+	}
+
+	.home {
+		float: right;
+	}
+}

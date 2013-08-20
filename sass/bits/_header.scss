@@ -1,0 +1,47 @@
+/* =Header
+-------------------------------------------------------------- */
+
+.site-branding {
+	img {
+		@include trailer(2);
+	}
+}
+
+/* =Header Global
+-------------------------------------------------------------- */
+
+.site-title {}
+
+.site-description {
+	@include adjust-font-size-to(22px);
+	line-height: 34px;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+/* =Header Posts
+-------------------------------------------------------------- */
+
+.post-title {}
+
+.post-description {}
+
+.post-nav {
+	@include clearfix();
+	@include padding-leader();
+	@include padding-trailer();
+	@include trailer(2);
+	background-color: lighten($black,10%);
+	margin-left: -$grid-padding;
+	margin-right: -$grid-padding;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
+
+	.post {
+		float: left;
+	}
+
+	.next {
+		float: right;
+	}
+}

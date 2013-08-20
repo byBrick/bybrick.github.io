@@ -1,0 +1,22 @@
+/* =Layout
+-------------------------------------------------------------- */
+
+.page {
+	@include container($total-columns, $break);
+}
+
+@include at-breakpoint($break) {
+	.main {
+		.content {
+			@include span-columns(8, $break);
+		}
+
+		.summary {
+			@include span-columns(4 omega, $break);
+		}
+	}
+
+	.comments {
+		@include span-columns(8, $break);
+	}
+}

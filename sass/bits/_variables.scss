@@ -1,0 +1,46 @@
+/* =Variables
+-------------------------------------------------------------- */
+
+// Susy
+
+$total-columns: 				7;
+$column-width: 					4em;
+$gutter-width: 					2em;
+$grid-padding: 					$gutter-width*2;
+
+$break: 						12;
+
+// Typography 
+
+$base-font-size: 				18px;
+$smaller-font-size: 			16px;
+$base-line-height: 				26px;
+@include establish-baseline;
+@include border-box-sizing;
+
+$body-font:						Arial, "Helvetica Neue", Helvetica, sans-serif;
+$heading-font:					"Arial Black", "Arial Bold", Gadget, sans-serif;
+
+// Colors
+
+$white:			#efefef;
+$black:			#101010;
+
+$gray:			#222222;
+$grayLight:		lighten($gray,10%);
+$grayLighter:	lighten($gray,20%);
+
+$orange:		#ef7f01;
+$orangeDark:	#793c00;
+
+$brown:			#a06e15;
+$brownDark:		#533c08;
+
+$green:			#b8b100;
+$greenDark:		#5f5901;
+
+$blue:			#2e90ff;
+$blueDark:		#15487d;
+
+$purple:		#8d319e;
+$purpleDark:	#6e197e;
