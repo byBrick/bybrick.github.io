@@ -3,6 +3,7 @@
 
 .site-branding {
 	img {
+		@include padding-leader(2);
 		@include trailer(2);
 	}
 }
@@ -14,8 +15,8 @@
 
 .site-description {
 	@include adjust-font-size-to(22px);
-	line-height: 34px;
 	font-weight: normal;
+	line-height: 34px;
 	margin-top: 0;
 }
 
@@ -24,7 +25,12 @@
 
 .post-title {}
 
-.post-description {}
+.post-description {
+	color: $green;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
 .post-nav {
 	@include clearfix();

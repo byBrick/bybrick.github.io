@@ -2,15 +2,13 @@
 
 	<section class="page post">
 		<nav class="post-nav">
-			<a href="#" rel="prev" class="prev">Previous post</a>
-			<a href="#" rel="next" class="next">Next post</a>
+			{% if page.previous.url %}<a href="{{ page.previous.url }}" title="Previous Post: {{ page.previous.title }}" rel="prev" class="prev">Previous post</a>{% endif %}
+			{% if page.next.url %}<a href="{{ page.next.url }}" title="Next post: {{ page.next.title }}" rel="next" class="next">Next post</a>{% endif %}
 		</nav><!-- .post-nav -->
 
 		<header class="banner" role="banner">
 			<h1 class="post-title">{{ page.title }}</h1>
-			{% if page.subtitle %}
-				<h2 class="post-description">{{ page.subtitle }}</h2>
-			{% endif %}
+			{% if page.subtitle %}<h2 class="post-description">{{ page.subtitle }}</h2>{% endif %}
 			<p class="meta">Written {{ page.date | date_to_string }} {% if page.author %} by {{ page.author }}{% endif %}</p>
 		</header><!-- .banner -->
 
@@ -39,6 +37,5 @@
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 		</div><!-- .comments -->
-	</section><!-- .page -->
 
 {% include footer.html %}

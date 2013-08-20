@@ -2,12 +2,66 @@
 -------------------------------------------------------------- */
 
 .contentinfo {
+	@include clearfix();
+	@include leader(4);
+	background-color: lighten($black,10%);
 	clear: both;
-	margin: 0 0 - $grid-padding;
-	padding: 0 $grid-padding;
+	margin-left: -$grid-padding;
+	margin-right: -$grid-padding;
+	padding-left: $grid-padding;
+	padding-right: $grid-padding;
 
-	@include at-breakpoint($break) {
-		@include pad(2, 3, $break);
-		margin: 0;
+	h1 {
+		@include adjust-font-size-to(22px);
+	}
+
+	h2 {
+		@include adjust-font-size-to($base-font-size);
+		font-weight: normal;
+		margin-top: 0;
+	}
+
+	.bybrick {
+		@include padding-leader();
+		float: left;
+		padding-left: $gutter-width;
+		padding-right: $gutter-width;
+		width: 50%;
+
+		@include at-breakpoint($break) {
+			width: 25%;		
+		}
+	}
+
+	.management {
+		background-color: $brown;
+
+		h2 {
+			color: $brownDark;
+		}
+	}
+
+	.development {
+		background-color: $orange;
+
+		h2 {
+			color: $orangeDark;
+		}
+	}
+
+	.interface {
+		background-color: $green;
+
+		h2 {
+			color: $greenDark;
+		}
+	}
+
+	.operations {
+		background-color: $blue;
+
+		h2 {
+			color: $blueDark;
+		}
 	}
 }

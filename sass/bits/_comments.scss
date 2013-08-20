@@ -3,5 +3,6 @@
 
 .comments {
 	@extend %box;
+	@include trailer(4);
 	border-width: 0;
 }

@@ -17,8 +17,6 @@ body {
 }
 
 .page {
-	@include padding-trailer();
-	@include padding-trailer(2);
 	background-color: lighten($black,5%);
 
 	&.post {
