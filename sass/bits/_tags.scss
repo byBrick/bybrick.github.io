@@ -1,0 +1,12 @@
+/* =Tags
+-------------------------------------------------------------- */
+
+.tags {
+	@include adjust-font-size-to($smaller-font-size); 
+	background-color: lighten($black,15%);
+	padding: 2px 6px;
+	color: lighten($black,60%);
+	position: absolute;
+	right: 0;
+	top: 0;
+}

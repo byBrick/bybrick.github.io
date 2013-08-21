@@ -11,6 +11,13 @@
 	padding-left: $grid-padding;
 	padding-right: $grid-padding;
 
+	@include at-breakpoint($break) {
+		margin-left: -($grid-padding*2);
+		margin-right: -($grid-padding*2);
+		padding-left: ($grid-padding*2);
+		padding-right: ($grid-padding*2);
+	}
+
 	h1 {
 		@include adjust-font-size-to(22px);
 	}
@@ -28,40 +35,53 @@
 		padding-right: $gutter-width;
 		width: 50%;
 
+		&:hover {
+			cursor: pointer;
+		}
+
 		@include at-breakpoint($break) {
 			width: 25%;		
+		}
+
+		/* Smartphones (portrait and landscape) */
+		@media only screen and (max-width : 480px) {
+			width: 100%;
 		}
 	}
 
 	.management {
 		background-color: $brown;
 
-		h2 {
+		h2 a {
 			color: $brownDark;
+			font-weight: normal;
 		}
 	}
 
 	.development {
 		background-color: $orange;
 
-		h2 {
+		h2 a {
 			color: $orangeDark;
+			font-weight: normal;
 		}
 	}
 
 	.interface {
 		background-color: $green;
 
-		h2 {
+		h2 a {
 			color: $greenDark;
+			font-weight: normal;
 		}
 	}
 
 	.operations {
 		background-color: $blue;
 
-		h2 {
+		h2 a {
 			color: $blueDark;
+			font-weight: normal;
 		}
 	}
 }

@@ -39,7 +39,8 @@ h1 {
 } 
 
 h2 { 
-	@include adjust-font-size-to(30px); 
+	@include adjust-font-size-to(30px);
+	line-height: 1.25em;
 	margin: rhythm(2, 30px) 0 rhythm(1, 30px) 0; // 2 line above, 1 line below 
 }
 
@@ -111,14 +112,14 @@ q {
 }
 
 blockquote {
-	padding-left: 2em;
-	padding-right: 2em;
+	color: $green;
 	line-height: normal;
 	margin: rhythm(3, 20px) 0 rhythm(3, 20px) 0; //  3 lines above, 3 lines below
+	padding-left: 2em;
+	padding-right: 2em;
 
 	p {
 		@include adjust-font-size-to(20px); 
-
 		font-style: italic;
 	}
 	footer {

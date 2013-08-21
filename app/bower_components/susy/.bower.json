@@ -10,5 +10,5 @@
   },
   "_source": "git://github.com/ericam/susy.git",
   "_target": "~1.0.9",
-  "_direct": true
+  "_originalSource": "git://github.com/ericam/susy.git"
 }

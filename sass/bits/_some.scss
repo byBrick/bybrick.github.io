@@ -1,0 +1,42 @@
+/* =Social media links
+-------------------------------------------------------------- */
+
+.some {
+	@include leader();
+	@include adjust-font-size-to($smaller-font-size);
+	float: left;
+
+	a {
+		display: block;
+	}
+
+	.github {
+		color: $grayLighter;
+	}
+
+	.facebook {
+		color: #3b5998;
+	}
+
+	.linkedin {
+		color: #007bb6;
+	}
+
+	.twitter {
+		color: #00aced;
+	}
+
+	@include at-breakpoint($break) {
+		float: right; 
+
+		a {
+			display: inline;
+		}
+
+		.linkedin,
+		.facebook,
+		.twitter {
+			margin-left: 1em;
+		}
+	}
+}

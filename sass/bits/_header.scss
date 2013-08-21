@@ -5,6 +5,7 @@
 	img {
 		@include padding-leader(2);
 		@include trailer(2);
+		clear: both;
 	}
 }
 
@@ -15,8 +16,9 @@
 
 .site-description {
 	@include adjust-font-size-to(22px);
+	@include trailer(2);
 	font-weight: normal;
-	line-height: 34px;
+	line-height: 1.5em;
 	margin-top: 0;
 }
 
@@ -42,6 +44,13 @@
 	margin-right: -$grid-padding;
 	padding-left: $grid-padding;
 	padding-right: $grid-padding;
+
+	@include at-breakpoint($break) {
+		margin-left: -($grid-padding*2);
+		margin-right: -($grid-padding*2);
+		padding-left: ($grid-padding*2);
+		padding-right: ($grid-padding*2);
+	}
 
 	.post {
 		float: left;

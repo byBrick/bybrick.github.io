@@ -24,6 +24,7 @@
 ----------------------------------------------------------------------
 */
 
+.tag:before, .tag:after,
 a:before, a:after {
 	font-family: 'auticons';
 	font-weight: normal !important;
@@ -31,6 +32,7 @@ a:before, a:after {
 	-webkit-font-smoothing: antialiased;
 }
 
+.tag:before,
 a:before { padding-right: 0.125em }
 
 /**
@@ -74,6 +76,7 @@ a:before { padding-right: 0.125em }
 
 /* tag archives */
 
+.tag:before,
 [rel="tag"]:before {
 	content: '\E016';
 }

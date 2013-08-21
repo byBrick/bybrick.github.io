@@ -26,7 +26,7 @@
       "fileType" : 64
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_settings.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -50,7 +50,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_background.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -74,8 +74,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/scss\/grid.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/grid.scss",
@@ -98,8 +98,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/site.css.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/site.css.scss",
@@ -110,8 +110,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/margin.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/margin.css",
@@ -142,8 +142,8 @@
       "fileType" : 64
     },
     "\/app\/bower_components\/susy\/test\/scss\/functions.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/functions.scss",
@@ -153,8 +153,20 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/bits\/_cards.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bits\/_cards.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_cards.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/app\/bower_components\/susy\/sass\/susy\/_support.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -162,6 +174,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_support.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/bits\/_some.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bits\/_some.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_some.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -178,8 +202,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/magic.css.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/magic.css.scss",
@@ -246,7 +270,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_grid.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -305,8 +329,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/grid.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/grid.css",
@@ -335,7 +359,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/templates\/project\/_base.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -362,18 +386,6 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/sass\/bits\/_links.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bits\/_links.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_links.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_modules\/_toggle.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -383,6 +395,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_toggle.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/types\/_template.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/types\/_template.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_template.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -398,17 +422,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/bits\/_nav-topbar.scss" : {
+    "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bits\/_nav-topbar.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_nav-topbar.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png",
+      "initialSize" : 18030,
+      "fileType" : 8192
     },
     "\/app\/bower_components\/susy\/docs\/source\/javascripts\/modernizr-2.5.3.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -421,21 +444,21 @@
       "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/modernizr-2.5.3.min.min.js",
       "fileType" : 64
     },
-    "\/app\/bower_components\/susy\/test\/scss\/margin.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/sass\/bits\/_nav-topbar.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/margin.scss",
+      "inputAbbreviatedPath" : "\/sass\/bits\/_nav-topbar.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/margin.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_nav-topbar.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/templates\/project\/screen.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/templates\/project\/screen.scss",
@@ -456,19 +479,20 @@
       "outputAbbreviatedPath" : "\/javascript\/main.min.min.js",
       "fileType" : 64
     },
-    "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png" : {
+    "\/sass\/bits\/_links.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/images\/splash-portrait.png",
-      "initialSize" : 18030,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/bits\/_links.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_links.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_media.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -506,15 +530,15 @@
       "initialSize" : 3601,
       "fileType" : 8192
     },
-    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/types\/_template.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/app\/bower_components\/susy\/test\/scss\/margin.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/types\/_template.scss",
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/margin.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_template.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/margin.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -578,6 +602,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/app\/bower_components\/susy\/docs\/source\/layouts\/magic.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/layouts\/magic.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/bits\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -591,8 +624,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/scss\/media.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/media.scss",
@@ -601,6 +634,24 @@
       "outputAbbreviatedPath" : "\/stylesheets\/media.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_includes\/footer.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/footer.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/stylesheets\/bits\/_nav-topbar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/bits\/_nav-topbar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/magic\/_layout.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -613,15 +664,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_layout.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_includes\/footer.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/footer.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_base\/_type.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -636,24 +678,13 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/functions.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/functions.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.min.js",
-      "fileType" : 64
     },
     "\/sass\/bits\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -667,6 +698,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jqwidont.min.js",
+      "fileType" : 64
+    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -676,21 +718,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_icons.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_icons.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_icons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/app\/bower_components\/susy\/test\/scss\/background.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/background.scss",
@@ -700,9 +730,21 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/app\/bower_components\/susy\/test\/scss\/padding.scss" : {
-      "ignoreWasSetByUser" : 1,
+    "\/sass\/bits\/_tags.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bits\/_tags.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_tags.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/test\/scss\/padding.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/padding.scss",
@@ -713,7 +755,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/_susy.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -724,6 +766,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/app\/bower_components\/susy\/docs\/source\/layouts\/layout.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/layouts\/layout.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_fonts.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -733,6 +784,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_fonts.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_icons.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_icons.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_icons.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -760,20 +823,19 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/app\/bower_components\/susy\/sass\/susy\/_margin.scss" : {
+    "\/app\/bower_components\/jquery\/jquery-migrate.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/sass\/susy\/_margin.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_margin.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery-migrate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery-migrate.min.js",
+      "fileType" : 64
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_padding.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -781,6 +843,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_padding.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/sass\/susy\/_margin.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/sass\/susy\/_margin.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_margin.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -793,17 +867,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery-migrate.min.min.js",
-      "fileType" : 64
-    },
-    "\/app\/bower_components\/jquery\/jquery-migrate.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery-migrate.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery-migrate.min.js",
       "fileType" : 64
     },
     "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-precomposed.png" : {
@@ -840,17 +903,6 @@
       "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/viewport.min.js",
       "fileType" : 64
     },
-    "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.min.js",
-      "fileType" : 64
-    },
     "\/app\/bower_components\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -861,6 +913,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/app\/bower_components\/jquery\/jquery.min.min.js",
       "fileType" : 64
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/layouts\/grid-types.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/layouts\/grid-types.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_layout.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -873,6 +934,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_layout.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/javascripts\/jquery-1.7.1.min.min.js",
+      "fileType" : 64
     },
     "\/app\/bower_components\/susy\/docs\/source\/partials\/_contentinfo.haml" : {
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/partials\/_contentinfo.haml",
@@ -891,8 +963,8 @@
       "outputStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/padding.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/padding.css",
@@ -900,8 +972,8 @@
       "fileType" : 16
     },
     "\/app\/bower_components\/susy\/test\/css\/bleed.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/bleed.css",
@@ -933,8 +1005,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/media.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/media.css",
@@ -962,6 +1034,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png",
+      "initialSize" : 4532,
+      "fileType" : 8192
+    },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_font-license.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -974,17 +1057,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-144x144-precomposed.png",
-      "initialSize" : 4532,
-      "fileType" : 8192
-    },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -995,7 +1067,7 @@
       "fileType" : 32768
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_units.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -1043,8 +1115,8 @@
       "fileType" : 8192
     },
     "\/app\/bower_components\/susy\/test\/scss\/isolation.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/isolation.scss",
@@ -1053,27 +1125,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/isolation.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_modules\/_pages.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_modules\/_pages.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/stylesheets\/_pages.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/app\/bower_components\/susy\/test\/css\/isolation.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/isolation.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_franklin-gothic.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -1084,6 +1135,27 @@
       "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/stylesheets\/_franklin-gothic.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/app\/bower_components\/susy\/test\/css\/isolation.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/isolation.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_modules\/_pages.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_modules\/_pages.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/stylesheets\/_pages.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1116,8 +1188,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/css\/background.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/css\/background.css",
@@ -1140,17 +1212,6 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 2439,
-      "fileType" : 8192
-    },
     "\/app\/bower_components\/susy\/docs\/source\/images\/splash-landscape.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1160,6 +1221,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/images\/splash-landscape.png",
       "initialSize" : 20633,
+      "fileType" : 8192
+    },
+    "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/bower_components\/susy\/docs\/source\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 2439,
       "fileType" : 8192
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_general\/_root.scss" : {
@@ -1187,8 +1259,8 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/test\/scss\/bleed.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/bower_components\/susy\/test\/scss\/bleed.scss",
@@ -1197,17 +1269,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/bleed.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/images\/bybrick.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/bybrick.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/bybrick.png",
-      "initialSize" : 2070,
-      "fileType" : 8192
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_base\/_base.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -1222,7 +1283,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_functions.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -1232,6 +1293,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_functions.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/bybrick.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/bybrick.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/bybrick.png",
+      "initialSize" : 2070,
+      "fileType" : 8192
     },
     "\/app\/bower_components\/susy\/docs\/source\/stylesheets\/_demos\/types\/_layouts.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -1258,7 +1330,7 @@
       "debugStyle" : 0
     },
     "\/app\/bower_components\/susy\/sass\/susy\/_isolation.scss" : {
-      "ignoreWasSetByUser" : 1,
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,

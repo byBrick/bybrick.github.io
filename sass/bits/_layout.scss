@@ -3,20 +3,25 @@
 
 .page {
 	@include container($total-columns, $break);
+
+	@include at-breakpoint($break) {
+		padding-left: ($grid-padding*2);
+		padding-right: ($grid-padding*2);
+	}
 }
 
 @include at-breakpoint($break) {
 	.main {
 		.content {
-			@include span-columns(8, $break);
+			@include span-columns(5, $break);
 		}
 
 		.summary {
-			@include span-columns(4 omega, $break);
+			@include span-columns(3 omega, $break);
 		}
 	}
 
 	.comments {
-		@include span-columns(8, $break);
+		@include span-columns(5, $break);
 	}
 }
