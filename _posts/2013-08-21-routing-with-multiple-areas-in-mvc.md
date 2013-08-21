@@ -20,7 +20,11 @@ So how do you go about getting good separation between areas, and not clogging u
 availble for controllers in the default route. Let's start off by examining the route config 
 provided when you create a new empty MVC 4 application in Visual Studio.
 
+<<<<<<< HEAD
 {% highlight c# %}
+=======
+{% highlight %}
+>>>>>>> 36b84ad74fe7e5eca61de0b44ff9e0dd7e033f06
 routes.MapRoute(
   name: "Default",
   url: "{controller}/{action}/{id}",
@@ -34,7 +38,11 @@ are added to each route. In order to get this to work properly this must be adde
 route as well as for the routes in your areas. In my template project I added the following to my 
 default route:
 
+<<<<<<< HEAD
 {% highlight c# %}
+=======
+{% highlight %}
+>>>>>>> 36b84ad74fe7e5eca61de0b44ff9e0dd7e033f06
 routes.MapRoute(
   name: "Default",
   url: "{controller}/{action}/{id}",
@@ -56,7 +64,11 @@ Thanks to some wicked googeling-skills of my co-worker we managed to come up wit
 It seems that you can pass data tokens into a route and alter its behaviour.  So by adding the following 
 line to the default route, controllers from the other areas were no longer accessible.
 
+<<<<<<< HEAD
 {% highlight c# %}
+=======
+{% highlight %}
+>>>>>>> 36b84ad74fe7e5eca61de0b44ff9e0dd7e033f06
 routes.MapRoute(
   name: "Default",
   url: "{controller}/{action}/{id}",
