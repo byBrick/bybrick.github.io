@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Routing with multiple areas in MVC"
-date: 2013-08-21 13:20:00
+date: 2013-08-21
 tags:
 - .NET
 - C#
