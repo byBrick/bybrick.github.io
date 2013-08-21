@@ -10,7 +10,7 @@ A better explanation on how this works and how you embed code with the correct s
 
 ### YAML
 
-Post settings are handled with [YAML](http://yaml.org/) and must be at the top of your `Markdown` file. Here’s an basic example with everything that this site is set up to recognize
+Post settings are handled with [YAML](http://yaml.org/) and must be at the top of your `Markdown` file. Here’s a basic example with everything that this site is set up to recognize
 
 ```
 ---
