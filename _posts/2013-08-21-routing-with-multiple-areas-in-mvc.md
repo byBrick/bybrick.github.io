@@ -6,11 +6,11 @@ tags:
 - .NET
 - C#
 - ASP.NET MVC
-author: HŒkan Edling
+author: Håkan Edling
 excerpt: Routing in ASP.NET MVC is pretty straight forward, however, with multiple areas and the strong possibility of having controllers with the same name in several of them strange things can happen.
 ---
 
-In my current work with getting Piranha CMS to play nice with MVC applications I ran into some 
+In my current work with getting [Piranha CMS](http://piranhacms.org/) to play nice with MVC applications I ran into some 
 issues with the routing and area setup. Previously, when I was hosting the core framework in a 
 Razor website one could be pretty sure that the manager controllers would be the only controllers 
 around, but with a MVC application this is of course not the case.
