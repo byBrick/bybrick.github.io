@@ -1,4 +1,6 @@
 name: byBrick Labs
 pygments: true
+url: http://bybrick.github.io
+description: Developers! Developers! Developers!
 exclude: [app, sass, config.rb, codekit-config.json]
 permalink: pretty
