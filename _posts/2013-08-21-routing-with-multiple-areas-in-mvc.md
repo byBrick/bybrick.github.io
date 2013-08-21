@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Routing with multiple areas in MVC"
-date: 2013-08-21
-tags: .NET, C#, ASP.NET MVC
+date: 2013-08-21 13:20:00
+tags:
+- .NET
+- C#
+- ASP.NET MVC
 author: HŒkan Edling
 excerpt: Routing in ASP.NET MVC is pretty straight forward, however, with multiple areas and the strong possibility of having controllers with the same name in several of them strange things can happen.
 ---

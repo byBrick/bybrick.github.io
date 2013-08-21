@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to byBrick Labs"
-date: 2013-08-21
+date: 2013-08-21 12:00:00
 tags: byBrick
 author: David Paulsson
 excerpt: Oh hai, there you are! Welcome!
