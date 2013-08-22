@@ -4,6 +4,7 @@
 	@include trailer();
 	background-color: lighten($black,10%);
 	border-left: 5px solid $orange;
+	overflow: scroll;
 	padding: rhythm(1, 14px) 2em 0 2em;
 }
 
