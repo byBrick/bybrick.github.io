@@ -80,6 +80,11 @@ pre {
 	margin: 0 0 rhythm(1, $smaller-font-size) 0; // 1 line below
 }
 
+p code {
+	font-family: Consolas, monaco, monospace;
+	color: $green;
+}
+
 ol,
 ul {
 	@include adjust-font-size-to($base-font-size);
