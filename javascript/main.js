@@ -1,7 +1,7 @@
 /* =Codekit imports
 -------------------------------------------------------------- */
 
-// @codekit-prepend "../app/bower_components/jquery/jquery.js"
+// @codekit-prepend "../app/bower_components/jquery/jquery.js" 
 
 /* =jQuery
 -------------------------------------------------------------- */
