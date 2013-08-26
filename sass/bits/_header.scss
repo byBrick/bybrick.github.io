@@ -12,14 +12,14 @@
 /* =Header Global
 -------------------------------------------------------------- */
 
-.site-title {}
+// .site-title {}
 
 .site-description {
 	@include adjust-font-size-to(22px);
+	@include leader(1/2);
 	@include trailer(2);
 	font-weight: normal;
 	line-height: 1.5em;
-	margin-top: 0;
 }
 
 /* =Header Posts
