@@ -9,12 +9,22 @@
 				<a href="http://twitter.com/bybrick/" class="twitter">Follow on Twitter</a>
 			</div><!-- .some -->
 
-			<div class="site-branding">
-				<a href="/" title="{{ site.name }}" rel="home"><img src="/images/bybrick.png" alt="byBrick logotype"></a>
-				<h1 class="site-title">{{ site.name }}</h1>
-				<h2 class="site-description">This is our technical blog where we write about code, share open source projects or discuss solutions to problems we encounter in our daily workplace here at <a href="http://bybrick.se/" target="_blank">byBrick</a>.</h2>
-			</div><!-- .site-branding -->
+
+				<a href="/" title="{{ site.name }}" rel="home">
+				<h1 class="site-title"><img src="/images/bybrick.png" alt="{{ site.name }}"></h1>
+
+                    </a>
+
+
 		</header><!-- .site-header -->
+
+    </div>
+
+    <div class="color-divider"><div class="container"><div class="management"></div><div class="development"></div><div class="interface"></div><div class="operations"></div></div></div>
+
+    <div class="page">
+
+        <h2 class="site-description">This is our technical blog where we write about code, share open source projects or discuss solutions to problems we encounter in our daily workplace here at <a href="http://bybrick.se/" target="_blank">byBrick</a>.</h2>
 
 		<div class="posts">
 			{{ content }}

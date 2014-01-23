@@ -4,4 +4,5 @@
 .summary {
 	@extend %box;
 	@include adjust-font-size-to($smaller-font-size);
+    overflow: hidden;
 }

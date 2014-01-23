@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 
 	//  Equal height on footer boxes
 	var maxHeight = 0;
-	var $eqHeightElement = $('.bybrick')
+	var $eqHeightElement = $('.bybrick');
 
 	$eqHeightElement.each(function() {
 		if ($(this).height() > maxHeight) { 

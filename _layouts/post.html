@@ -8,11 +8,23 @@
 				<a href="http://linkedin.com/company/bybrick" class="linkedin">Follow on LinkedIn</a>
 				<a href="http://twitter.com/bybrick/" class="twitter">Follow on Twitter</a>
 			</div><!-- .some -->
-			
-			<div class="site-branding">
-				<a href="/" title="{{ site.name }}" rel="home"><img src="/images/bybrick.png" alt="byBrick logotype"></a>
-			</div><!-- .site-branding -->
+
+
+				<a href="/" title="{{ site.name }}" rel="home">
+				<h1 class="site-title"><img src="/images/bybrick.png" alt="{{ site.name }}"></h1>
+
+                    </a>
+
+
 		</header><!-- .site-header -->
+
+    </div>
+
+    <div class="color-divider"><div class="container"><div class="management"></div><div class="development"></div><div class="interface"></div><div class="operations"></div></div></div>
+
+
+    <div class="page post">
+
 
 		<nav class="post-nav">
 			{% if page.previous.url %}<a href="{{ page.previous.url }}" title="Previous Post: {{ page.previous.title }}" rel="prev" class="prev">Previous post</a>{% endif %}

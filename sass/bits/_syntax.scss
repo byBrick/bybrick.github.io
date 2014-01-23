@@ -5,6 +5,7 @@
 	@extend %box;
 	border-color: $blue;
 	font-family: monospace;
+    overflow: auto;
 }
 
 .highlight .c {

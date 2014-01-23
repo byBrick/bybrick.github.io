@@ -2,8 +2,9 @@
 -------------------------------------------------------------- */
 
 .some {
-	@include leader();
+//	@include leader();
 	@include adjust-font-size-to($smaller-font-size);
+    margin-top: 45px;
 	float: left;
 
 	a {

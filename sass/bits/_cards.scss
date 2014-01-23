@@ -8,6 +8,8 @@
 .card {
 	@extend %box;
 	position: relative;
+    overflow: hidden;
+    border-left: 0;
 
 	@include at-breakpoint($break) {
 		@include span-columns(4, $break);

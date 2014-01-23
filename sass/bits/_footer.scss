@@ -1,19 +1,26 @@
 /* =Footer
 -------------------------------------------------------------- */
 
+
+.contentinfoWrapper {
+  	background-color: lighten($black,10%);
+}
+
 .contentinfo {
 	@include clearfix();
 	@include leader(4);
-	background-color: lighten($black,10%);
+    max-width: $container-width;
+
 	clear: both;
-	margin-left: -$grid-padding;
-	margin-right: -$grid-padding;
+	margin-left: auto;
+	margin-right: auto;
 	padding-left: $grid-padding;
 	padding-right: $grid-padding;
 
+
 	@include at-breakpoint($break) {
-		margin-left: -($grid-padding*2);
-		margin-right: -($grid-padding*2);
+		margin-left: auto;
+		margin-right: auto;
 		padding-left: ($grid-padding*2);
 		padding-right: ($grid-padding*2);
 	}
