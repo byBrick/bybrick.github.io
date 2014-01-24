@@ -363,7 +363,7 @@ html {
 body {
   background-color: #101010;
   color: #efefef;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "nimbus-sans", sans-serif;
 }
 
 /* line 23, ../sass/bits/_general.scss */
@@ -400,14 +400,9 @@ html {
 
 /* =Default Sizing and spacing
 -------------------------------------------------------------- */
-/* line 23, ../sass/bits/_typography.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-/* line 27, ../sass/bits/_typography.scss */
+/* line 24, ../sass/bits/_typography.scss */
 h1, h2, h3 {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "news-gothic-std", sans-serif !important;
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
   -webkit-font-feature-settings: "liga", "dlig";
@@ -415,14 +410,14 @@ h1, h2, h3 {
   font-feature-settings: "liga", "dlig";
 }
 
-/* line 36, ../sass/bits/_typography.scss */
+/* line 33, ../sass/bits/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.44444em;
   margin: 0;
 }
 
-/* line 41, ../sass/bits/_typography.scss */
+/* line 38, ../sass/bits/_typography.scss */
 h2 {
   font-size: 1.66667em;
   line-height: 1.73333em;
@@ -430,40 +425,40 @@ h2 {
   margin: 1.73333em 0 0.86667em 0;
 }
 
-/* line 47, ../sass/bits/_typography.scss */
+/* line 44, ../sass/bits/_typography.scss */
 h2.archive {
   margin: 1.73333em 0 0 0;
 }
 
-/* line 51, ../sass/bits/_typography.scss */
+/* line 48, ../sass/bits/_typography.scss */
 h3 {
   font-size: 1.22222em;
   line-height: 1.18182em;
   margin: 0 0 1.18182em 0;
 }
 
-/* line 56, ../sass/bits/_typography.scss */
+/* line 53, ../sass/bits/_typography.scss */
 h4 {
   font-size: 1.11111em;
   line-height: 1.3em;
   margin: 0 0 1.3em 0;
 }
 
-/* line 61, ../sass/bits/_typography.scss */
+/* line 58, ../sass/bits/_typography.scss */
 h5 {
   font-size: 1em;
   line-height: 1.44444em;
   margin: 0 0 1.44444em 0;
 }
 
-/* line 66, ../sass/bits/_typography.scss */
+/* line 63, ../sass/bits/_typography.scss */
 h6 {
   font-size: 1em;
   line-height: 1.44444em;
   margin: 0 0 1.44444em 0;
 }
 
-/* line 72, ../sass/bits/_typography.scss */
+/* line 69, ../sass/bits/_typography.scss */
 p,
 label {
   font-size: 1em;
@@ -471,7 +466,7 @@ label {
   margin: 0 0 1.44444em 0;
 }
 
-/* line 77, ../sass/bits/_typography.scss */
+/* line 74, ../sass/bits/_typography.scss */
 pre {
   font-size: 0.88889em;
   line-height: 1.625em;
@@ -479,13 +474,13 @@ pre {
   margin: 0 0 1.625em 0;
 }
 
-/* line 83, ../sass/bits/_typography.scss */
+/* line 80, ../sass/bits/_typography.scss */
 p code {
   font-family: Consolas, monaco, monospace;
   color: #b8b100;
 }
 
-/* line 89, ../sass/bits/_typography.scss */
+/* line 86, ../sass/bits/_typography.scss */
 ol,
 ul {
   font-size: 1em;
@@ -493,37 +488,37 @@ ul {
   margin: 0 0 1.44444em 0;
 }
 
-/* line 94, ../sass/bits/_typography.scss */
+/* line 91, ../sass/bits/_typography.scss */
 ul {
   list-style-position: inside;
   list-style-type: disc;
 }
 
-/* line 99, ../sass/bits/_typography.scss */
+/* line 96, ../sass/bits/_typography.scss */
 ol {
   list-style-position: inside;
   list-style-type: decimal;
 }
 
-/* line 104, ../sass/bits/_typography.scss */
+/* line 101, ../sass/bits/_typography.scss */
 li {
   line-height: auto;
 }
 
-/* line 109, ../sass/bits/_typography.scss */
+/* line 106, ../sass/bits/_typography.scss */
 strong,
 b {
   font-weight: bold;
 }
 
-/* line 115, ../sass/bits/_typography.scss */
+/* line 112, ../sass/bits/_typography.scss */
 em,
 i,
 q {
   font-style: italic;
 }
 
-/* line 119, ../sass/bits/_typography.scss */
+/* line 116, ../sass/bits/_typography.scss */
 blockquote {
   color: #b8b100;
   line-height: normal;
@@ -531,15 +526,15 @@ blockquote {
   padding-left: 2em;
   padding-right: 2em;
 }
-/* line 126, ../sass/bits/_typography.scss */
+/* line 123, ../sass/bits/_typography.scss */
 blockquote p {
   font-size: 1.11111em;
   line-height: 1.3em;
   font-style: italic;
 }
-/* line 130, ../sass/bits/_typography.scss */
+/* line 127, ../sass/bits/_typography.scss */
 blockquote footer {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "nimbus-sans", sans-serif;
 }
 
 /* =Layout
@@ -1151,10 +1146,9 @@ a {
   white-space: -hp-pre-wrap;
   word-wrap: break-word;
   color: #2e90ff;
-  font-weight: bold;
   text-decoration: none;
 }
-/* line 12, ../sass/bits/_links.scss */
+/* line 11, ../sass/bits/_links.scss */
 a:hover, a:focus, a:active {
   color: #15487d;
 }
@@ -1165,7 +1159,6 @@ a:hover, a:focus, a:active {
 .meta {
   font-size: 0.88889em;
   line-height: 1.625em;
-  margin-top: 1.44444em;
   margin-bottom: 2.88889em;
   color: #555555;
 }

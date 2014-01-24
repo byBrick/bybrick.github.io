@@ -3,7 +3,6 @@
 
 .meta {
 	@include adjust-font-size-to($smaller-font-size);
-	@include leader();
 	@include trailer(2);
 	color: $grayLighter;
 }

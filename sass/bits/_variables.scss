@@ -18,8 +18,8 @@ $base-line-height: 				26px;
 @include establish-baseline;
 @include border-box-sizing;
 
-$body-font:						Arial, "Helvetica Neue", Helvetica, sans-serif;
-$heading-font:					"Arial Black", "Arial Bold", Gadget, sans-serif;
+$body-font:						"nimbus-sans", sans-serif;
+$heading-font:					"news-gothic-std", sans-serif !important;
 
 // Colors
 
