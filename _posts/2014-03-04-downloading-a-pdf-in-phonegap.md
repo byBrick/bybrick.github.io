@@ -57,6 +57,6 @@ And then use with something like:
 			'suchpdf.pdf',
 			'/sdcard/dodge-this-doge/'
 		);">
-		Wuch PDF</a>
+		Such PDF</a>
 	
 This example is built against Phonegap/Cordova 2.1.0 but should will no (or very little) modifications work on 3.0 as well.
